@@ -1,0 +1,53 @@
+body {
+    --mainBackgroundColor: #111111;
+    --mainForegroundColor: #e0e0e1;
+  
+    --mainBackgroundHoverColor: #30343b;
+  
+    /* Compat with PeerTube < 3.2 */
+    --submenuColor: rgb(32, 32, 32);
+  
+    --submenuBackgroundColor: rgb(32, 32, 32);
+  
+    --inputForegroundColor: #e0e0e1;
+    --inputBackgroundColor: #30363d;
+    --inputPlaceholderColor: #aaa;
+  
+    --textareaForegroundColor: #e0e0e1;
+    --textareaBackgroundColor: #30363d;
+    --markdownTextareaBackgroundColor: #30363d;
+  
+    --greyForegroundColor: #bbb;
+    --greyBackgroundColor: #232830;
+    --greySecondaryBackgroundColor: #30343b;
+  
+    --actionButtonColor: #bbb;
+    --activatedActionButtonColor: #fff;
+  
+    --channelBackgroundColor: rgb(32, 32, 32);
+    --mainColorVeryLight: #292121;
+  }
+  
+  
+  .icon-logo {
+    min-width: 29px;
+    min-height: 29px;
+    background-color: #fff;
+    background-origin: content-box;
+    border-radius: 20px;
+    padding: 3px 4px 3px 8px;
+  }
+  
+  .dropdown-menu,
+  .dropdown-divider {
+    border-color: var(--inputBorderColor);
+  }
+  
+  .dropdown-header {
+    color: var(--mainForegroundColor);
+  }
+  
+  .accordion-button {
+    background-color: #292121;
+  }
+  
