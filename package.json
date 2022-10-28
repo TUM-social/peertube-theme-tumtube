@@ -1,0 +1,21 @@
+{
+  "name": "youtum-theme",
+  "version": "0.0.2",
+  "description": "PeerTube YouTUM quickstart",
+  "engine": {
+    "peertube": ">=1.3.0"
+  },
+  "keywords": [
+    "peertube",
+    "theme"
+  ],
+  "homepage": "https://github.com/TUM-social/peertube-theme-tumtube",
+  "author": "16flotho",
+  "bugs": "https://github.com/TUM-social/peertube-theme-tumtube/issues",
+  "staticDirs": {
+    "images": "public/images"
+  },
+  "css": [
+    "assets/style.css"
+  ],
+}
