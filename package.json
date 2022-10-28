@@ -1,7 +1,7 @@
 {
-  "name": "youtum-theme",
+  "name": "peertube-theme-youtum",
   "version": "0.0.2",
-  "description": "PeerTube YouTUM quickstart",
+  "description": "PeerTube YouTUM Theme",
   "engine": {
     "peertube": ">=1.3.0"
   },
@@ -9,9 +9,9 @@
     "peertube",
     "theme"
   ],
-  "homepage": "https://github.com/TUM-social/peertube-theme-tumtube",
+  "homepage": "https://github.com/TUM-social/peertube-theme-youtum",
   "author": "16flotho",
-  "bugs": "https://github.com/TUM-social/peertube-theme-tumtube/issues",
+  "bugs": "https://github.com/TUM-social/peertube-theme-youtum/issues",
   "staticDirs": {
     "images": "public/images"
   },
