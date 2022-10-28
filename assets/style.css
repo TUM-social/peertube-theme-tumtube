@@ -1,0 +1,127 @@
+body {
+    --mainBackgroundColor: #111111;
+    --mainForegroundColor: #e0e0e1;
+
+    --mainBackgroundHoverColor: #30343b;
+
+    /* Compat with PeerTube < 3.2 */
+    --submenuColor: rgb(32, 32, 32);
+
+    --submenuBackgroundColor: rgb(32, 32, 32);
+
+    --inputForegroundColor: #e0e0e1;
+    --inputBackgroundColor: #30363d;
+    --inputPlaceholderColor: #aaa;
+
+    --textareaForegroundColor: #e0e0e1;
+    --textareaBackgroundColor: #30363d;
+    --markdownTextareaBackgroundColor: #30363d;
+
+    --greyForegroundColor: #bbb;
+    --greyBackgroundColor: #232830;
+    --greySecondaryBackgroundColor: #30343b;
+
+    --actionButtonColor: #bbb;
+    --activatedActionButtonColor: #fff;
+
+    --channelBackgroundColor: rgb(32, 32, 32);
+    --mainColorVeryLight: #212229;
+
+    --mainColor: #3070b3;
+    --mainHoverColor: #14519a;
+}
+
+.icon-logo {
+    min-width: 29px;
+    min-height: 29px;
+    background-color: #fff;
+    background-origin: content-box;
+    border-radius: 20px;
+    padding: 3px 4px 3px 8px;
+}
+
+.dropdown-menu,
+.dropdown-divider {
+    border-color: var(--inputBorderColor);
+}
+
+.dropdown-header {
+    color: var(--mainForegroundColor);
+}
+
+.accordion-button {
+    background-color: #292121;
+}
+
+.login-form-and-externals>form {
+    display: none;
+}
+
+.external-login-blocks,
+.external-login-blocks>div {
+    width: 100%;
+}
+
+.external-login-blocks>.block-title,
+.external-login-blocks .external-login-block {
+    font-size: 0;
+}
+
+.external-login-blocks>.block-title:after {
+    content: "Anmelden mit tum.social";
+    font-size: 1.5rem;
+}
+
+.external-login-blocks .external-login-block {
+    justify-content: left !important;
+}
+
+.external-login-blocks .external-login-block:after {
+    font-size: 1rem;
+    content: "Weiter zu tum.social";
+    margin: auto;
+}
+
+.external-login-blocks .external-login-block:before {
+    content: url("https://tum.social/tum-assets/brand.svg");
+    margin: 16px;
+    width: 100px;
+}
+
+
+/* Fixes styles of Dropdowns and labels  */
+.ng-option-selected,
+.ng-option.ng-option-marked,
+.ng-optgroup:hover,
+.ng-select-container,
+.ng-optgroup,
+.ng-value-label,
+.ng-value-icon {
+    color: var(--mainForegroundColor) !important;
+}
+
+.ng-option-selected,
+.ng-option.ng-option-marked,
+.ng-optgroup:hover {
+    background-color: var(--mainBackgroundHoverColor) !important;
+}
+
+.ng-select-container,
+.ng-optgroup {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.ng-value-label,
+.ng-value-icon {
+    background-color: var(--channelBackgroundColor) !important;
+}
+
+input[type="radio"]+label:before {
+    background-color: var(--mainBackgroundColor) !important;
+}
+
+.icon-logo {
+    background-image: url("../../static/images/logo.png");
+    background-color: transparent;
+    width: 100px !important;
+}
