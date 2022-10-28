@@ -1,1 +1,1 @@
-# tumtube-design
+# PeerTube theme Quickstart
