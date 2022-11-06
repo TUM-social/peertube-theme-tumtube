@@ -1,5 +1,5 @@
 {
-  "name": "@tum-social/peertube-theme-youtum",
+  "name": "peertube-theme-youtum",
   "version": "1.0.0",
   "description": "PeerTube YouTUM Theme",
   "engine": {
